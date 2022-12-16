@@ -15,7 +15,7 @@ public class Client {
              PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
              BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 
-            String[] good = {"булка", "колбаса","сухарики","курица", "шапка", "мыло", "акции", "Маффин"};
+            String[] good = {"булка", "колбаса","сухарики","курица", "шапка", "мыло", "акции", "Странное_нечто"};
             int[] expenses = {40, 50, 70, 170, 200, 230, 100, 300};
             Random rnd = new Random();
             int number = rnd.nextInt(8);
